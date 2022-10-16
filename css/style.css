@@ -111,7 +111,7 @@ section{
     color:var(--main-color);
 }
 
-#menu-btn{
+#VilhemsPurvītis-btn{
     display: none;
 }
 
@@ -151,7 +151,7 @@ section{
     color:var(--main-color);
 }
 
-.header .cart-items-container{
+.header .container{
     position: absolute;
     top:100%; right: -100%;
     height: calc(100vh - 9.5rem);
@@ -160,11 +160,11 @@ section{
     padding:0 1.5rem;
 }
 
-.header .cart-items-container.active{
+.header .container.active{
     right: 0;
 }
 
-.header .cart-items-container .cart-item{
+.header .container .item{
     position: relative;
     margin:2rem 0;
     display: flex;
@@ -172,7 +172,7 @@ section{
     gap:1.5rem;
 }
 
-.header .cart-items-container .cart-item .fa-times{
+.header .container .item .fa-times{
     position: absolute;
     top:1rem; right: 1rem;
     font-size: 2rem;
@@ -180,26 +180,26 @@ section{
     color: var(--black);
 }
 
-.header .cart-items-container .cart-item .fa-times:hover{
+.header .container .item .fa-times:hover{
     color:var(--main-color);
 }
 
-.header .cart-items-container .cart-item img{
+.header .container .item img{
     height: 7rem;
 }
 
-.header .cart-items-container .cart-item .content h3{
+.header .container .item .content h3{
     font-size: 2rem;
     color:var(--black);
     padding-bottom: .5rem;
 }
 
-.header .cart-items-container .cart-item .content .price{
+.header .container .item .content{
     font-size: 1.5rem;
     color:var(--main-color);
 }
 
-.header .cart-items-container .btn{
+.header .container .btn{
     width: 100%;
     text-align: center;
 }
@@ -231,76 +231,76 @@ section{
     color:#eee;
 }
 
-.about .row{
+.VilhemsPurvītis .row{
     display: flex;
     align-items: center;
     background:var(--black);
     flex-wrap: wrap;
 }
 
-.about .row .image{
+.VilhemsPurvītis .row .image{
     flex:1 1 45rem;
 }
 
-.about .row .image img{
+.VilhemsPurvītis .row .image img{
     width: 100%;
 }
-.about .row .content{
+.VilhemsPurvītis .row .content{
     flex:1 1 45rem;
     padding:2rem;
 }
 
-.about .row .content h3{
+.VilhemsPurvītis .row .content h3{
     font-size: 3rem;
     color:#fff;
 }
 
-.about .row .content p{
+.VilhemsPurvītis .row .content p{
     font-size: 1.6rem;
     color:#ccc;
     padding:1rem 0;
     line-height: 1.8;
 }
 
-.menu .box-container{
+.Izstāde .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
 }
 
-.menu .box-container .box{
+.Izstāde .box-container .box{
     padding:5rem;
     text-align: center;
     border:var(--border);    
 }
 
-.menu .box-container .box img{
+.Izstāde .box-container .box img{
     height: 10rem;
 }
 
-.menu .box-container .box h3{
+.Izstāde .box-container .box h3{
     color: #fff;
     font-size: 2rem;
     padding:1rem 0;
 }
 
-.menu .box-container .box .price{
+.Izstāde .box-container .box .price{
     color: #fff;
     font-size: 2.5rem;
     padding:.5rem 0;
 }
 
-.menu .box-container .box .price span{
+.Izstāde .box-container .box .price span{
     font-size: 1.5rem;
     text-decoration: line-through;
     font-weight: lighter;
 }
 
-.menu .box-container .box:hover{
+.Izstāde .box-container .box:hover{
     background:#fff;
 }
 
-.menu .box-container .box:hover > *{
+.Izstādes .box-container .box:hover > *{
     color:var(--black);
 }
 
